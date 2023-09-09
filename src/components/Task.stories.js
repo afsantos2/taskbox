@@ -28,6 +28,3 @@ export const Pinned = () => <Task task={{...taskData, state: 'TASK_PINNED' }} {.
 export const Archived = () => (
   <Task task={{...taskData, state: 'TASK_ARCHIVED'}} {...actionsData} /> 
 )
-
-
-
