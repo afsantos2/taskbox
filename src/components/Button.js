@@ -7,6 +7,10 @@ export default function Button({ label }) {
   )
 }
 
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+}
+
 Button.defaultProps = {
   label: 'Valor Padrão'
 }
